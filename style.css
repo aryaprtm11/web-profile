@@ -23,7 +23,7 @@ body {
 }
 
 .contain-1 {
-  margin-top: 12%;
+  margin-top: 10%;
 }
 
 .contain-2 {
@@ -33,6 +33,10 @@ body {
 h2 {
   font-weight: bold;
   color: #2f4c78;
+}
+
+.sosmed {
+  margin-top: 20px;
 }
 
 nav {
@@ -51,6 +55,7 @@ nav {
   color: #2f4c78;
   font-size: 40px;
   font-weight: bold;
+  margin-left: 3%;
 }
 
 span {
@@ -76,7 +81,7 @@ nav a:hover {
 
 nav ul li:hover {
   color: white;
-  scale: 1.1;
+  scale: 0.9;
   border: none;
   transition: scale 0.3s ease-in-out;
   border-radius: 10px;
