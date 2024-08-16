@@ -93,17 +93,21 @@ nav ul li a {
   padding: 10px;
 }
 
-nav a:hover {
-  color: white;
+.navbar-nav .nav-item a {
+  color: #2f4c78;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px;
+  transition: 0.3s ease-in-out;
 }
 
-.nav-item:hover {
+.navbar-nav .nav-item a:hover {
   color: white;
-  scale: 1.1;
   border: none;
-  transition: scale 0.3s ease-in-out;
+  padding: 20px;
   border-radius: 10px;
   background-color: #2f4c78;
+  cursor: pointer;
 }
 
 /* Card */
@@ -131,6 +135,10 @@ section {
   padding: 5rem 5% 5rem;
 }
 
+.contact {
+  min-height: 0vh;
+}
+
 /* About Me */
 .about-me {
   display: flex;
@@ -150,6 +158,42 @@ section {
   border-radius: 50%;
   cursor: pointer;
   transition: 0.2s linear;
+}
+
+/* Skill */
+.skill {
+  display: inline-flex;
+}
+
+.skill img {
+  display: inline-flex;
+  border-radius: 10%;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 0.4rem 1rem 3rem 0;
+}
+
+/* Project */
+.category {
+  color: rgb(94, 93, 93);
+}
+
+.btn-port {
+  background-color: rgb(204, 156, 249);
+  color: white;
+}
+
+.btn-port:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+.porto-skill {
+  display: inline-flex;
+  border-radius: 10%;
+  width: 2rem;
+  height: 2rem;
+  margin: 0.4rem 1rem 3rem 0;
 }
 
 /* Sosmed */
@@ -222,7 +266,7 @@ section {
 }
 
 /* Skill */
-.skill {
+.skill2 {
   background-color: transparent;
   justify-content: center;
   align-items: center;
@@ -281,7 +325,7 @@ section {
       margin: 0rem 4rem;
   }
 
-  .skill{
+  .skill2{
     flex-direction: column;
     margin-top: -5rem;
     margin-left: 2rem;
